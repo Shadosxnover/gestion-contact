@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useParams } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import ContactForm from './components/ContactForm';
-import ContactDetails from './components/ContactDetails';
+// import ContactDetails from './components/ContactDetails';
 import ContactDetailsWrapper from './components/ContactDetailsWrapper';
 import { Contact } from './types/contact';
 
